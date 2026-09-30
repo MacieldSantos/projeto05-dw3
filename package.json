@@ -1,0 +1,12 @@
+{
+  "name": "projeto05-dw3",
+  "version": "1.0.0",
+  "description": "\"Projeto 05 - Cálculo de Média de Alunos em Node.js\",",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "\"Maciel dos Santos\",",
+  "license": "MIT"
+}

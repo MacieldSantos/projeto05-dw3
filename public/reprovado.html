@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno Reprovado</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-reprovado">
+    <main class="card-resultado">
+        <div class="badge reprovado">REPROVADO</div>
+        <h1>Situação do Aluno: {situacao}</h1>
+        
+        <div class="detalhes">
+            <p>Nota P1: <strong>{p1}</strong></p>
+            <p>Nota P2: <strong>{p2}</strong></p>
+            <hr>
+            <p class="media-final">Média Final: <strong>{media}</strong></p>
+        </div>
+
+        <p class="mensagem">Infelizmente você não atingiu a média mínima de 6.0.</p>
+
+        <a href="/" class="btn">Nova Consulta</a>
+    </main>
+</body>
+</html>
